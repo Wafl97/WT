@@ -1,0 +1,60 @@
+*{
+    margin: .25em;
+    border-radius: 5px;
+    color: #61AFEF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+
+::placeholder{
+    color: #939fa8;
+}
+
+body{
+    position: relative;
+    width: auto;
+    background-color: #42464e;
+}
+
+label{
+    color: #61AFEF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+
+h1{
+    color: #61AFEF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5em;
+}
+
+input{
+     background-color: #54617c;
+     color:#61AFEF;
+}
+input[type=button]:hover{
+    background-color: #42464e;
+}
+input[type=submit]:hover{
+    background-color: #42464e;
+}
+input[type=button]:active{
+    background-color: #61AFEF;
+    color:#42464e;
+}
+input[type=submit]:active{
+    background-color: #61AFEF;
+    color:#42464e;
+}
+
+textarea{
+    background-color: #54617c;
+}
+
+select{
+    background-color: #54617c;
+}
+
+select > option{
+    color:#61AFEF;
+}
