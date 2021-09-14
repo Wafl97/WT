@@ -31,3 +31,20 @@ function printTri(size){
 
 # E2
 
+
+# E3
+
+
+# E4
+
+
+# E5
+
+
+# E6
+
+
+# E7
+
+
+# E8
