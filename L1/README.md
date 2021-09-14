@@ -31,6 +31,7 @@
     <input type="submit" value="Submit">           
 </form>
 ```
+
 - added action.js to handle the addition of tracks
 ```js
 function add2List(){
@@ -53,7 +54,44 @@ function add2List(){
     document.getElementById("form").appendChild(hidden);
 }
 ```
-
+- did not need to do it this way
+- how it should have been:
+```html
+<h1>New Album</h1>
+<form id="form" action="index.html" method="GET">
+    <label for="name">Name</label><br>
+    <input type="text" id="name" name="name" placeholder="Album Name"><br>
+    <label for="release">Release Year</label><br>
+    <input type="number" id="release" name="release"><br>
+    <label for="artist">Artist</label><br>
+    <select name="artist" id="artist">
+        <option value="caster">Caster</option>
+        <option value="reaper">Reaper</option>
+        <option value="deadlife">DEADLIFE</option>
+    </select><br>
+    <label for="type">Type</label><br>
+    <select name="type" id="type">
+        <option value="single">Single</option>
+        <option value="ep">EP</option>
+        <option value="album">Album</option>
+    </select><br>
+    <label for="desciption">Description</label><br>
+    <textarea name="desciption" id="desciption" rows="10" cols="30" placeholder="Enter description..."></textarea><br>
+    <label for="aTrack">Add Track</label><br>
+    <input type="text" id="track" value="track">
+    <input type="text" id="track" value="track">
+    <input type="text" id="track" value="track">
+    <input type="text" id="track" value="track">
+    <input type="text" id="track" value="track">
+    <input type="text" id="track" value="track">
+    <input type="text" id="track" value="track">
+    <input type="text" id="track" value="track">
+    <input type="text" id="track" value="track">
+    <input type="text" id="track" value="track">
+    <input type="submit" value="Submit">           
+</form>
+```
+- this also means that there was no need for the js 
 
 ## E2 - style form
 - added e1.css
